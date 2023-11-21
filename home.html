@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./navbar.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="header-wrapper">
+    <h1>
+        SNEEK <span style= "color: #A0E9FF">PEAK</span>
+    </h1>
+    <header>
+        <nav>
+          <div class="header-list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" onclick="changeContent('man')">Man</a></li>
+                <li><a href="#" onclick="changeContent('woman')">Woman</a></li>
+                <li><a href="#" onclick="changeContent('collection')">Collection</a></li>
+                <li><a href="#" onclick="changeContent('contact')">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+  </div>
+
+    <div id="content">
+        <!-- Content will be dynamically loaded here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

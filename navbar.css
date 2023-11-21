@@ -1,0 +1,35 @@
+.header-wrapper {
+    height: 80px;
+    background-color: #010c15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.header-wrapper h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.header-list ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+
+.header-list ul li{
+    margin: 0 25px;
+    font-size: 22px;
+}
+
+.header-list ul li a {
+    color: aqua;
+    text-decoration: none;
+}
